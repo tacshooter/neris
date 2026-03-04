@@ -1,0 +1,3959 @@
+[
+  {
+    "key": "type_incident",
+    "options": [
+      {
+        "code": "FIRE: OUTSIDE_FIRE: CONSTRUCTION_WASTE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "CONSTRUCTION_WASTE",
+            "description": "Construction Waste"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: OTHER_OUTSIDE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "OTHER_OUTSIDE_FIRE",
+            "description": "Other Outside Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: OUTSIDE_TANK_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "OUTSIDE_TANK_FIRE",
+            "description": "Outside Tank Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: TRASH_RUBBISH_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "TRASH_RUBBISH_FIRE",
+            "description": "Trash / Rubbish Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: VEGETATION_GRASS_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "VEGETATION_GRASS_FIRE",
+            "description": "Vegetation / Grass Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: WILDFIRE_WILDLAND",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "WILDFIRE_WILDLAND",
+            "description": "Wildfire - Wildland"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: WILDFIRE_URBAN_INTERFACE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "WILDFIRE_URBAN_INTERFACE",
+            "description": "Wildfire - Urban Interface"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: UTILITY_INFRASTRUCTURE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "UTILITY_INFRASTRUCTURE_FIRE",
+            "description": "Utility Infrastructure Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: OUTSIDE_FIRE: DUMPSTER_OUTDOOR_CONTAINER_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "OUTSIDE_FIRE",
+            "description": "Outside Fire"
+          },
+          {
+            "value": "DUMPSTER_OUTDOOR_CONTAINER_FIRE",
+            "description": "Dumpster / Other Outdoor Container Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "141",
+          "142",
+          "143",
+          "140",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "170",
+          "171",
+          "172",
+          "173"
+        ]
+      },
+      {
+        "code": "FIRE: SPECIAL_FIRE: ESS_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "SPECIAL_FIRE",
+            "description": "Special Fire"
+          },
+          {
+            "value": "ESS_FIRE",
+            "description": "ESS Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "200",
+          "210",
+          "211",
+          "212",
+          "213",
+          "220",
+          "221",
+          "222",
+          "223",
+          "231",
+          "240",
+          "241",
+          "242",
+          "243",
+          "244"
+        ]
+      },
+      {
+        "code": "FIRE: SPECIAL_FIRE: EXPLOSION",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "SPECIAL_FIRE",
+            "description": "Special Fire"
+          },
+          {
+            "value": "EXPLOSION",
+            "description": "Explosion"
+          }
+        ],
+        "nfirs_codes": [
+          "200",
+          "210",
+          "211",
+          "212",
+          "213",
+          "220",
+          "221",
+          "222",
+          "223",
+          "231",
+          "240",
+          "241",
+          "242",
+          "243",
+          "244"
+        ]
+      },
+      {
+        "code": "FIRE: SPECIAL_FIRE: INFRASTRUCTURE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "SPECIAL_FIRE",
+            "description": "Special Fire"
+          },
+          {
+            "value": "INFRASTRUCTURE_FIRE",
+            "description": "Infrastructure Fire (Tunnel, Bridge)"
+          }
+        ],
+        "nfirs_codes": [
+          "200",
+          "210",
+          "211",
+          "212",
+          "213",
+          "220",
+          "221",
+          "222",
+          "223",
+          "231",
+          "240",
+          "241",
+          "242",
+          "243",
+          "244"
+        ]
+      },
+      {
+        "code": "FIRE: STRUCTURE_FIRE: STRUCTURAL_INVOLVEMENT_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "STRUCTURE_FIRE",
+            "description": "Structure Fire"
+          },
+          {
+            "value": "STRUCTURAL_INVOLVEMENT_FIRE",
+            "description": "Structural Involvement"
+          }
+        ],
+        "nfirs_codes": [
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "121",
+          "122",
+          "123",
+          "120"
+        ]
+      },
+      {
+        "code": "FIRE: STRUCTURE_FIRE: ROOM_AND_CONTENTS_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "STRUCTURE_FIRE",
+            "description": "Structure Fire"
+          },
+          {
+            "value": "ROOM_AND_CONTENTS_FIRE",
+            "description": "Room and Contents Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "121",
+          "122",
+          "123",
+          "121"
+        ]
+      },
+      {
+        "code": "FIRE: STRUCTURE_FIRE: CONFINED_COOKING_APPLIANCE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "STRUCTURE_FIRE",
+            "description": "Structure Fire"
+          },
+          {
+            "value": "CONFINED_COOKING_APPLIANCE_FIRE",
+            "description": "Confined Cooking / Appliance Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "121",
+          "122",
+          "123",
+          "122"
+        ]
+      },
+      {
+        "code": "FIRE: STRUCTURE_FIRE: CHIMNEY_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "STRUCTURE_FIRE",
+            "description": "Structure Fire"
+          },
+          {
+            "value": "CHIMNEY_FIRE",
+            "description": "Chimney Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117",
+          "118",
+          "121",
+          "122",
+          "123",
+          "123"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: AIRCRAFT_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "AIRCRAFT_FIRE",
+            "description": "Aircraft Emergency"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_PASSENGER",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "VEHICLE_FIRE_PASSENGER",
+            "description": "Vehicle Fire - Passenger"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_COMMERCIAL",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "VEHICLE_FIRE_COMMERCIAL",
+            "description": "Vehicle Fire - Commercial"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_RV",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "VEHICLE_FIRE_RV",
+            "description": "Vehicle Fire - RV"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: VEHICLE_FIRE_FOOD_TRUCK",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "VEHICLE_FIRE_FOOD_TRUCK",
+            "description": "Vehicle Fire - Food Truck"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: BOAT_PERSONAL_WATERCRAFT_BARGE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "BOAT_PERSONAL_WATERCRAFT_BARGE_FIRE",
+            "description": "Boat / Personal Watercraft / Barge Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: POWERED_MOBILITY_DEVICE_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "POWERED_MOBILITY_DEVICE_FIRE",
+            "description": "Powered Mobility Device Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "FIRE: TRANSPORTATION_FIRE: TRAIN_RAIL_FIRE",
+        "levels": [
+          {
+            "value": "FIRE",
+            "description": "Fire"
+          },
+          {
+            "value": "TRANSPORTATION_FIRE",
+            "description": "Transportation Fire"
+          },
+          {
+            "value": "TRAIN_RAIL_FIRE",
+            "description": "Train / Rail Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "130",
+          "131",
+          "132",
+          "133",
+          "134",
+          "135",
+          "136",
+          "137",
+          "138"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARD_NONCHEM: BOMB_THREAT_RESPONSE_SUSPICIOUS_PACKAGE",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARD_NONCHEM",
+            "description": "Hazard Non-Chemical"
+          },
+          {
+            "value": "BOMB_THREAT_RESPONSE_SUSPICIOUS_PACKAGE",
+            "description": "Bomb Threat / Bomb Response / Suspicious Package"
+          }
+        ],
+        "nfirs_codes": [
+          "371",
+          "372",
+          "370",
+          "381",
+          "400",
+          "441",
+          "442",
+          "443",
+          "444",
+          "445",
+          "440",
+          "451",
+          "471"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARD_NONCHEM: ELEC_POWER_LINE_DOWN_ARCHING_MALFUNC",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARD_NONCHEM",
+            "description": "Hazard Non-Chemical"
+          },
+          {
+            "value": "ELEC_POWER_LINE_DOWN_ARCHING_MALFUNC",
+            "description": "Electrical Power Line Down / Arching / Malfunction"
+          }
+        ],
+        "nfirs_codes": [
+          "371",
+          "372",
+          "370",
+          "381",
+          "400",
+          "441",
+          "442",
+          "443",
+          "444",
+          "445",
+          "440",
+          "451",
+          "471"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARD_NONCHEM: ELEC_HAZARD_SHORT_CIRCUIT",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARD_NONCHEM",
+            "description": "Hazard Non-Chemical"
+          },
+          {
+            "value": "ELEC_HAZARD_SHORT_CIRCUIT",
+            "description": "Electrical Hazard / Short Circuit"
+          }
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARD_NONCHEM: MOTOR_VEHICLE_COLLISION",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARD_NONCHEM",
+            "description": "Hazard Non-Chemical"
+          },
+          {
+            "value": "MOTOR_VEHICLE_COLLISION",
+            "description": "Motor Vehicle Collision"
+          }
+        ],
+        "nfirs_codes": [
+          "371",
+          "372",
+          "370",
+          "381",
+          "400",
+          "441",
+          "442",
+          "443",
+          "444",
+          "445",
+          "440",
+          "451",
+          "471"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: FUEL_SPILL_ODOR",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "FUEL_SPILL_ODOR",
+            "description": "Fuel Spill / Fuel Odor"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: GAS_LEAK_ODOR",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "GAS_LEAK_ODOR",
+            "description": "Gas Leak / Gas Odor"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: CARBON_MONOXIDE_RELEASE",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "CARBON_MONOXIDE_RELEASE",
+            "description": "Carbon Monoxide Release"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: BIOLOGICAL_RELEASE_INCIDENT",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "BIOLOGICAL_RELEASE_INCIDENT",
+            "description": "Biological Release / Incident"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: RADIOACTIVE_RELEASE_INCIDENT",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "RADIOACTIVE_RELEASE_INCIDENT",
+            "description": "Radioactive Release / Incident"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: HAZMAT_RELEASE_TRANSPORT",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "HAZMAT_RELEASE_TRANSPORT",
+            "description": "Hazardous Material Release (Chemical from Transportation)"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: HAZARDOUS_MATERIALS: HAZMAT_RELEASE_FACILITY",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "HAZARDOUS_MATERIALS",
+            "description": "Hazardous Materials"
+          },
+          {
+            "value": "HAZMAT_RELEASE_FACILITY",
+            "description": "Hazardous Material Release (Chemical from Fixed Facility)"
+          }
+        ],
+        "nfirs_codes": [
+          "381",
+          "400",
+          "411",
+          "412",
+          "413",
+          "410",
+          "421",
+          "422",
+          "423",
+          "424",
+          "420",
+          "431",
+          "430"
+        ]
+      },
+      {
+        "code": "HAZSIT: OVERPRESSURE: RUPTURE_WITHOUT_FIRE",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "OVERPRESSURE",
+            "description": "Overpressure"
+          },
+          {
+            "value": "RUPTURE_WITHOUT_FIRE",
+            "description": "Rupture Without Fire"
+          }
+        ],
+        "nfirs_codes": [
+          "200"
+        ]
+      },
+      {
+        "code": "HAZSIT: OVERPRESSURE: NO_RUPTURE",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "OVERPRESSURE",
+            "description": "Overpressure"
+          },
+          {
+            "value": "NO_RUPTURE",
+            "description": "No Rupture"
+          }
+        ],
+        "nfirs_codes": [
+          "200"
+        ]
+      },
+      {
+        "code": "HAZSIT: INVESTIGATION: ODOR",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "INVESTIGATION",
+            "description": "Investigation"
+          },
+          {
+            "value": "ODOR",
+            "description": "Odor"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "HAZSIT: INVESTIGATION: SMOKE_INVESTIGATION",
+        "levels": [
+          {
+            "value": "HAZSIT",
+            "description": "Hazardous Situation"
+          },
+          {
+            "value": "INVESTIGATION",
+            "description": "Investigation"
+          },
+          {
+            "value": "SMOKE_INVESTIGATION",
+            "description": "Smoke Investigation"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: ABDOMINAL_PAIN",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "ABDOMINAL_PAIN",
+            "description": "Abdominal Pain / Problems"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: ALLERGIC_REACTION_STINGS",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "ALLERGIC_REACTION_STINGS",
+            "description": "Allergic Reaction / Stings"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: BACK_PAIN_NON_TRAUMA",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "BACK_PAIN_NON_TRAUMA",
+            "description": "Back Pain (Non-Trauma)"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: BREATHING_PROBLEMS",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "BREATHING_PROBLEMS",
+            "description": "Breathing Problems"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: CARDIAC_ARREST",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "CARDIAC_ARREST",
+            "description": "Cardiac Arrest"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: CHEST_PAIN_NON_TRAUMA",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "CHEST_PAIN_NON_TRAUMA",
+            "description": "Chest Pain (Non-Trauma)"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: CONVULSIONS_SEIZURES",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "CONVULSIONS_SEIZURES",
+            "description": "Convulsions / Seizures"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: DIABETIC_PROBLEMS",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "DIABETIC_PROBLEMS",
+            "description": "Diabetic Problems"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: HEADACHE",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "HEADACHE",
+            "description": "Headache"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: HEART_PROBLEMS",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "HEART_PROBLEMS",
+            "description": "Heart Problems"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: OVERDOSE",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "OVERDOSE",
+            "description": "Overdose / Poisoning"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: PANDEMIC_EPIDEMIC_OUTBREAK",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "PANDEMIC_EPIDEMIC_OUTBREAK",
+            "description": "Pandemic / Epidemic / Outbreak"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: PREGNANCY_CHILDBIRTH",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "PREGNANCY_CHILDBIRTH",
+            "description": "Pregnancy / Childbirth"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: PSYCHOLOGICAL_BEHAVIOR_ISSUES",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "PSYCHOLOGICAL_BEHAVIOR_ISSUES",
+            "description": "Psychological Behavior Issues"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: SICK_CASE",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "SICK_CASE",
+            "description": "Sick Case"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: STROKE_CVA",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "STROKE_CVA",
+            "description": "Stroke / CVA"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: UNCONSCIOUS_VICTIM",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "UNCONSCIOUS_VICTIM",
+            "description": "Unconscious Victim"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: WELL_PERSON_CHECK",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "WELL_PERSON_CHECK",
+            "description": "Well Person Check"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: ALTERED_MENTAL_STATUS",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "ALTERED_MENTAL_STATUS",
+            "description": "Altered Mental Status"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: NAUSEA_VOMITING",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "NAUSEA_VOMITING",
+            "description": "Nausea / Vomiting"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: UNKNOWN_PROBLEM",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "UNKNOWN_PROBLEM",
+            "description": "Unknown Problem"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: ILLNESS: NO_APPROPRIATE_CHOICE",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "ILLNESS",
+            "description": "Illness"
+          },
+          {
+            "value": "NO_APPROPRIATE_CHOICE",
+            "description": "No Appropriate Choice"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: ANIMAL_BITES",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "ANIMAL_BITES",
+            "description": "Animal Bites"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: ASSAULT",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "ASSAULT",
+            "description": "Assault"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: BURNS_EXPLOSION",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "BURNS_EXPLOSION",
+            "description": "Burns / Explosion"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: CARBON_MONOXIDE_OTHER_INHALATION_INJURY",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "CARBON_MONOXIDE_OTHER_INHALATION_INJURY",
+            "description": "Carbon Monoxide / Other Inhalation Injury"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: CHOKING",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "CHOKING",
+            "description": "Choking"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: DROWNING_DIVING_SCUBA_ACCIDENT",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "DROWNING_DIVING_SCUBA_ACCIDENT",
+            "description": "Drowning / Diving / SCUBA Accident"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: ELECTROCUTION",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "ELECTROCUTION",
+            "description": "Electrocution"
+          }
+        ],
+        "nfirs_codes": [
+          "None"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: EYE_TRAUMA",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "EYE_TRAUMA",
+            "description": "Eye Trauma"
+          }
+        ],
+        "nfirs_codes": [
+          "None"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: FALL",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "FALL",
+            "description": "Fall"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: HEAT_COLD_EXPOSURE",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "HEAT_COLD_EXPOSURE",
+            "description": "Heat / Cold Exposure"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: MOTOR_VEHICLE_COLLISION",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "MOTOR_VEHICLE_COLLISION",
+            "description": "Motor Vehicle Collision"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: INDUSTRIAL_INACCESSIBLE_ENTRAPMENT",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "INDUSTRIAL_INACCESSIBLE_ENTRAPMENT",
+            "description": "Industrial Accident/Inaccessible Incident/Other Entrapment (Non-Vehicle)"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: POISONING",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "POISONING",
+            "description": "Poisoning"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: GUNSHOT_WOUND",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "GUNSHOT_WOUND",
+            "description": "Gunshot Wound"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: HEMORRHAGE_LACERATION",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "HEMORRHAGE_LACERATION",
+            "description": "Hemorrhage / Laceration"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: STAB_PENETRATING_TRAUMA",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "STAB_PENETRATING_TRAUMA",
+            "description": "Stab / Penetrating Trauma"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: INJURY: OTHER_TRAUMATIC_INJURY",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "INJURY",
+            "description": "Injury / Trauma"
+          },
+          {
+            "value": "OTHER_TRAUMATIC_INJURY",
+            "description": "Other Traumatic Injury"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: HEALTHCARE_PROFESSIONAL_ADMISSION",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "HEALTHCARE_PROFESSIONAL_ADMISSION",
+            "description": "Healthcare Professional Admission"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: MEDICAL_ALARM",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "MEDICAL_ALARM",
+            "description": "Medical Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: STANDBY_REQUEST",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "STANDBY_REQUEST",
+            "description": "Standby Request"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: TRANSFER_INTERFACILITY",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "TRANSFER_INTERFACILITY",
+            "description": "Transfer / Interfacility"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: AIRMEDICAL_TRANSPORT",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "AIRMEDICAL_TRANSPORT",
+            "description": "Airmedical Transport"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: INTERCEPT_OTHER_UNIT",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "INTERCEPT_OTHER_UNIT",
+            "description": "Intercept Other Unit"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "MEDICAL: OTHER: COMMUNITY_PUBLIC_HEALTH",
+        "levels": [
+          {
+            "value": "MEDICAL",
+            "description": "Medical"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "COMMUNITY_PUBLIC_HEALTH",
+            "description": "Community Public Health"
+          }
+        ],
+        "nfirs_codes": [
+          "300",
+          "320",
+          "321",
+          "322",
+          "323",
+          "324",
+          "460"
+        ]
+      },
+      {
+        "code": "PUBSERV: CITIZEN_ASSIST: LOST_PERSON",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "CITIZEN_ASSIST",
+            "description": "Citizen Assist"
+          },
+          {
+            "value": "LOST_PERSON",
+            "description": "Lost Person"
+          }
+        ],
+        "nfirs_codes": [
+          "481",
+          "482",
+          "480",
+          "500",
+          "511",
+          "512",
+          "510",
+          "521",
+          "522",
+          "520",
+          "531",
+          "541",
+          "542",
+          "540",
+          "552",
+          "553",
+          "554",
+          "555",
+          "550"
+        ]
+      },
+      {
+        "code": "PUBSERV: CITIZEN_ASSIST: PERSON_IN_DISTRESS",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "CITIZEN_ASSIST",
+            "description": "Citizen Assist"
+          },
+          {
+            "value": "PERSON_IN_DISTRESS",
+            "description": "Person In Distress"
+          }
+        ],
+        "nfirs_codes": [
+          "481",
+          "482",
+          "480",
+          "500",
+          "511",
+          "512",
+          "510",
+          "521",
+          "522",
+          "520",
+          "531",
+          "541",
+          "542",
+          "540",
+          "552",
+          "553",
+          "554",
+          "555",
+          "550"
+        ]
+      },
+      {
+        "code": "PUBSERV: CITIZEN_ASSIST: CITIZEN_ASSIST_SERVICE_CALL",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "CITIZEN_ASSIST",
+            "description": "Citizen Assist"
+          },
+          {
+            "value": "CITIZEN_ASSIST_SERVICE_CALL",
+            "description": "Citizen Assist / Service Call"
+          }
+        ],
+        "nfirs_codes": [
+          "481",
+          "482",
+          "480",
+          "500",
+          "511",
+          "512",
+          "510",
+          "521",
+          "522",
+          "520",
+          "531",
+          "541",
+          "542",
+          "540",
+          "552",
+          "553",
+          "554",
+          "555",
+          "550"
+        ]
+      },
+      {
+        "code": "PUBSERV: CITIZEN_ASSIST: LIFT_ASSIST",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "CITIZEN_ASSIST",
+            "description": "Citizen Assist"
+          },
+          {
+            "value": "LIFT_ASSIST",
+            "description": "Lift Assist"
+          }
+        ],
+        "nfirs_codes": [
+          "481",
+          "482",
+          "480",
+          "500",
+          "511",
+          "512",
+          "510",
+          "521",
+          "522",
+          "520",
+          "531",
+          "541",
+          "542",
+          "540",
+          "552",
+          "553",
+          "554",
+          "555",
+          "550"
+        ]
+      },
+      {
+        "code": "PUBSERV: ALARMS_NONMED: FIRE_ALARM",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "ALARMS_NONMED",
+            "description": "Alarms (Non Medical)"
+          },
+          {
+            "value": "FIRE_ALARM",
+            "description": "Fire / Smoke Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "PUBSERV: ALARMS_NONMED: GAS_ALARM",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "ALARMS_NONMED",
+            "description": "Alarms (Non Medical)"
+          },
+          {
+            "value": "GAS_ALARM",
+            "description": "Gas Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "PUBSERV: ALARMS_NONMED: CO_ALARM",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "ALARMS_NONMED",
+            "description": "Alarms (Non Medical)"
+          },
+          {
+            "value": "CO_ALARM",
+            "description": "CO Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "PUBSERV: ALARMS_NONMED: OTHER_ALARM",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "ALARMS_NONMED",
+            "description": "Alarms (Non Medical)"
+          },
+          {
+            "value": "OTHER_ALARM",
+            "description": "Other Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "PUBSERV: DISASTER_WEATHER: DAMAGE_ASSESSMENT",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "DISASTER_WEATHER",
+            "description": "Disaster / Weather"
+          },
+          {
+            "value": "DAMAGE_ASSESSMENT",
+            "description": "Damage Assessment"
+          }
+        ],
+        "nfirs_codes": [
+          "800",
+          "811",
+          "812",
+          "813",
+          "814",
+          "815"
+        ]
+      },
+      {
+        "code": "PUBSERV: DISASTER_WEATHER: WEATHER_RESPONSE",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "DISASTER_WEATHER",
+            "description": "Disaster / Weather"
+          },
+          {
+            "value": "WEATHER_RESPONSE",
+            "description": "Weather Response"
+          }
+        ],
+        "nfirs_codes": [
+          "800",
+          "811",
+          "812",
+          "813",
+          "814",
+          "815"
+        ]
+      },
+      {
+        "code": "PUBSERV: OTHER: MOVE_UP",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "MOVE_UP",
+            "description": "Move-up "
+          }
+        ],
+        "nfirs_codes": [
+          "571"
+        ]
+      },
+      {
+        "code": "PUBSERV: OTHER: STANDBY",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "STANDBY",
+            "description": "Standby"
+          }
+        ],
+        "nfirs_codes": [
+          "571"
+        ]
+      },
+      {
+        "code": "PUBSERV: OTHER: DAMAGED_HYDRANT",
+        "levels": [
+          {
+            "value": "PUBSERV",
+            "description": "Public Service"
+          },
+          {
+            "value": "OTHER",
+            "description": "Other"
+          },
+          {
+            "value": "DAMAGED_HYDRANT",
+            "description": "Damaged Hydrant"
+          }
+        ],
+        "nfirs_codes": [
+          "571"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: BACKOUNTRY_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "BACKOUNTRY_RESCUE",
+            "description": "Backcountry Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: CONFINED_SPACE_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "CONFINED_SPACE_RESCUE",
+            "description": "Confined Space Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: TRENCH",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "TRENCH",
+            "description": "Trench"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: EXTRICATION_ENTRAPPED",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "EXTRICATION_ENTRAPPED",
+            "description": "Extrication / Entrapped"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: HIGH_ANGLE_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "HIGH_ANGLE_RESCUE",
+            "description": "High Angle Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: LOW_ANGLE_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "LOW_ANGLE_RESCUE",
+            "description": "Low Angle Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: STEEP_ANGLE_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "STEEP_ANGLE_RESCUE",
+            "description": "Steep Angle Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: OUTSIDE: LIMITED_NO_ACCESS",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "OUTSIDE",
+            "description": "Outside"
+          },
+          {
+            "value": "LIMITED_NO_ACCESS",
+            "description": "Limited/No Access"
+          }
+        ],
+        "nfirs_codes": [
+          "354",
+          "355",
+          "356",
+          "357",
+          "350",
+          "300"
+        ]
+      },
+      {
+        "code": "RESCUE: STRUCTURE: BUILDING_STRUCTURE_COLLAPSE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "STRUCTURE",
+            "description": "Structure"
+          },
+          {
+            "value": "BUILDING_STRUCTURE_COLLAPSE",
+            "description": "Building Collapse / Structure Collapse"
+          }
+        ],
+        "nfirs_codes": [
+          "351",
+          "353",
+          "355",
+          "357",
+          "350",
+          "461"
+        ]
+      },
+      {
+        "code": "RESCUE: STRUCTURE: CONFINED_SPACE_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "STRUCTURE",
+            "description": "Structure"
+          },
+          {
+            "value": "CONFINED_SPACE_RESCUE",
+            "description": "Confined Space Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "351",
+          "353",
+          "355",
+          "357",
+          "350",
+          "461"
+        ]
+      },
+      {
+        "code": "RESCUE: STRUCTURE: ELEVATOR_ESCALATOR_RESCUE",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "STRUCTURE",
+            "description": "Structure"
+          },
+          {
+            "value": "ELEVATOR_ESCALATOR_RESCUE",
+            "description": "Elevator / Escalator Rescue"
+          }
+        ],
+        "nfirs_codes": [
+          "351",
+          "353",
+          "355",
+          "357",
+          "350",
+          "461"
+        ]
+      },
+      {
+        "code": "RESCUE: STRUCTURE: EXTRICATION_ENTRAPPED",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "STRUCTURE",
+            "description": "Structure"
+          },
+          {
+            "value": "EXTRICATION_ENTRAPPED",
+            "description": "Extrication / Entrapped"
+          }
+        ],
+        "nfirs_codes": [
+          "351",
+          "353",
+          "355",
+          "357",
+          "350",
+          "461"
+        ]
+      },
+      {
+        "code": "RESCUE: TRANSPORTATION: MOTOR_VEHICLE_EXTRICATION_ENTRAPPED",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "TRANSPORTATION",
+            "description": "Transportation (Land)"
+          },
+          {
+            "value": "MOTOR_VEHICLE_EXTRICATION_ENTRAPPED",
+            "description": "Motor Vehicle Collision Extrication / Entrapment"
+          }
+        ],
+        "nfirs_codes": [
+          "352"
+        ]
+      },
+      {
+        "code": "RESCUE: TRANSPORTATION: TRAIN_RAIL_COLLISION_DERAILMENT",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "TRANSPORTATION",
+            "description": "Transportation (Land)"
+          },
+          {
+            "value": "TRAIN_RAIL_COLLISION_DERAILMENT",
+            "description": "Train and Rail Collision / Derailment"
+          }
+        ],
+        "nfirs_codes": [
+          "352"
+        ]
+      },
+      {
+        "code": "RESCUE: TRANSPORTATION: AVIATION_COLLISION_CRASH",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "TRANSPORTATION",
+            "description": "Transportation (Land)"
+          },
+          {
+            "value": "AVIATION_COLLISION_CRASH",
+            "description": "Aviation Collision / Crash"
+          }
+        ],
+        "nfirs_codes": [
+          "352"
+        ]
+      },
+      {
+        "code": "RESCUE: TRANSPORTATION: AVIATION_STANDBY",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "TRANSPORTATION",
+            "description": "Transportation (Land)"
+          },
+          {
+            "value": "AVIATION_STANDBY",
+            "description": "Aviation Standby"
+          }
+        ],
+        "nfirs_codes": [
+          "352"
+        ]
+      },
+      {
+        "code": "RESCUE: WATER: PERSON_IN_WATER_STANDING",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "WATER",
+            "description": "Water"
+          },
+          {
+            "value": "PERSON_IN_WATER_STANDING",
+            "description": "Person in Water (Standing Water/Lake)"
+          }
+        ],
+        "nfirs_codes": [
+          "361",
+          "361",
+          "363",
+          "364",
+          "365",
+          "360"
+        ]
+      },
+      {
+        "code": "RESCUE: WATER: PERSON_IN_WATER_SWIFTWATER",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "WATER",
+            "description": "Water"
+          },
+          {
+            "value": "PERSON_IN_WATER_SWIFTWATER",
+            "description": "Person in Water (Swiftwater/River)"
+          }
+        ],
+        "nfirs_codes": [
+          "361",
+          "361",
+          "363",
+          "364",
+          "365",
+          "360"
+        ]
+      },
+      {
+        "code": "RESCUE: WATER: WATERCRAFT_IN_DISTRESS",
+        "levels": [
+          {
+            "value": "RESCUE",
+            "description": "Rescue"
+          },
+          {
+            "value": "WATER",
+            "description": "Water"
+          },
+          {
+            "value": "WATERCRAFT_IN_DISTRESS",
+            "description": "Watercraft in Distress"
+          }
+        ],
+        "nfirs_codes": [
+          "361",
+          "361",
+          "363",
+          "364",
+          "365",
+          "360"
+        ]
+      },
+      {
+        "code": "NOEMERG: FALSE_ALARM: INTENTIONAL_FALSE_ALARM",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "FALSE_ALARM",
+            "description": "False Alarm"
+          },
+          {
+            "value": "INTENTIONAL_FALSE_ALARM",
+            "description": "Intentional False Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "NOEMERG: FALSE_ALARM: MALFUNCTIONING_ALARM",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "FALSE_ALARM",
+            "description": "False Alarm"
+          },
+          {
+            "value": "MALFUNCTIONING_ALARM",
+            "description": "Malfunctioning Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "NOEMERG: FALSE_ALARM: ACCIDENTAL_ALARM",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "FALSE_ALARM",
+            "description": "False Alarm"
+          },
+          {
+            "value": "ACCIDENTAL_ALARM",
+            "description": "Accidental Alarm"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "NOEMERG: FALSE_ALARM: OTHER_FALSE_CALL",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "FALSE_ALARM",
+            "description": "False Alarm"
+          },
+          {
+            "value": "OTHER_FALSE_CALL",
+            "description": "Other False Call"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "NOEMERG: FALSE_ALARM: BOMB_SCARE",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "FALSE_ALARM",
+            "description": "False Alarm"
+          },
+          {
+            "value": "BOMB_SCARE",
+            "description": "Bomb Scare"
+          }
+        ],
+        "nfirs_codes": [
+          "641",
+          "700",
+          "711",
+          "712",
+          "713",
+          "714",
+          "715",
+          "710",
+          "721",
+          "731",
+          "732",
+          "733",
+          "734",
+          "735",
+          "736",
+          "730",
+          "741",
+          "742",
+          "743",
+          "744",
+          "745",
+          "746",
+          "740",
+          "751"
+        ]
+      },
+      {
+        "code": "NOEMERG: GOOD_INTENT: NO_INCIDENT_FOUND_LOCATION_ERROR",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "GOOD_INTENT",
+            "description": "Good Intent"
+          },
+          {
+            "value": "NO_INCIDENT_FOUND_LOCATION_ERROR",
+            "description": "No Incident Found Upon Arrival / Location Error"
+          }
+        ],
+        "nfirs_codes": [
+          "600",
+          "621",
+          "622",
+          "631",
+          "632",
+          "651",
+          "652",
+          "653",
+          "650",
+          "661",
+          "671",
+          "672"
+        ]
+      },
+      {
+        "code": "NOEMERG: GOOD_INTENT: CONTROLLED_BURNING_AUTHORIZED",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "GOOD_INTENT",
+            "description": "Good Intent"
+          },
+          {
+            "value": "CONTROLLED_BURNING_AUTHORIZED",
+            "description": "Controlled Burning (Authorized)"
+          }
+        ],
+        "nfirs_codes": [
+          "600",
+          "621",
+          "622",
+          "631",
+          "632",
+          "651",
+          "652",
+          "653",
+          "650",
+          "661",
+          "671",
+          "672"
+        ]
+      },
+      {
+        "code": "NOEMERG: GOOD_INTENT: SMOKE_FROM_NONHOSTILE_SOURCE",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "GOOD_INTENT",
+            "description": "Good Intent"
+          },
+          {
+            "value": "SMOKE_FROM_NONHOSTILE_SOURCE",
+            "description": "Smoke From Nonhostile Source (Smoke Scare)"
+          }
+        ],
+        "nfirs_codes": [
+          "600",
+          "621",
+          "622",
+          "631",
+          "632",
+          "651",
+          "652",
+          "653",
+          "650",
+          "661",
+          "671",
+          "672"
+        ]
+      },
+      {
+        "code": "NOEMERG: GOOD_INTENT: INVESTIGATE_HAZARDOUS_RELEASE",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "GOOD_INTENT",
+            "description": "Good Intent"
+          },
+          {
+            "value": "INVESTIGATE_HAZARDOUS_RELEASE",
+            "description": "Investigate Hazardous Release (Nothing Found)"
+          }
+        ],
+        "nfirs_codes": [
+          "600",
+          "621",
+          "622",
+          "631",
+          "632",
+          "651",
+          "652",
+          "653",
+          "650",
+          "661",
+          "671",
+          "672"
+        ]
+      },
+      {
+        "code": "NOEMERG: CANCELLED",
+        "levels": [
+          {
+            "value": "NOEMERG",
+            "description": "No Emergency"
+          },
+          {
+            "value": "CANCELLED",
+            "description": "Cancelled"
+          }
+        ],
+        "nfirs_codes": [
+          "611"
+        ]
+      },
+      {
+        "code": "LAWENFORCE",
+        "levels": [
+          {
+            "value": "LAWENFORCE",
+            "description": "Law Enforcement Support"
+          }
+        ],
+        "nfirs_codes": [
+          "551"
+        ]
+      }
+    ]
+  },
+  {
+    "key": "type_special_modifier",
+    "options": [
+      {
+        "code": "ACTIVE_ASSAILANT",
+        "levels": []
+      },
+      {
+        "code": "MCI",
+        "levels": []
+      },
+      {
+        "code": "FEDERAL_DECLARED_DISASTER",
+        "levels": []
+      },
+      {
+        "code": "STATE_DECLARED_DISASTER",
+        "levels": []
+      },
+      {
+        "code": "COUNTY_LOCAL_DECLARED_DISASTER",
+        "levels": []
+      },
+      {
+        "code": "URBAN_CONFLAGRATION",
+        "levels": []
+      },
+      {
+        "code": "VIOLENCE_AGAINST_RESPONDER",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_suppress_appliance",
+    "options": [
+      {
+        "code": "FIRE_EXTINGUISHER",
+        "levels": []
+      },
+      {
+        "code": "BOOSTER_FIRE_HOSE",
+        "levels": []
+      },
+      {
+        "code": "SMALL_DIAMETER_FIRE_HOSE",
+        "levels": []
+      },
+      {
+        "code": "MEDIUM_DIAMETER_FIRE_HOSE",
+        "levels": []
+      },
+      {
+        "code": "GROUND_MONITOR",
+        "levels": []
+      },
+      {
+        "code": "MASTER_STREAM",
+        "levels": []
+      },
+      {
+        "code": "ELEVATED_MASTER_STREAM_STANDPIPE",
+        "levels": []
+      },
+      {
+        "code": "BUILDING_STANDPIPE",
+        "levels": []
+      },
+      {
+        "code": "BUILDING_FDC",
+        "levels": []
+      },
+      {
+        "code": "AIRATTACK_HELITACK",
+        "levels": []
+      },
+      {
+        "code": "OTHER",
+        "levels": []
+      },
+      {
+        "code": "NONE",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_water_supply",
+    "options": [
+      {
+        "code": "HYDRANT_LESS_500",
+        "levels": []
+      },
+      {
+        "code": "HYDRANT_GREATER_500",
+        "levels": []
+      },
+      {
+        "code": "TANK_WATER",
+        "levels": []
+      },
+      {
+        "code": "WATER_TENDER_SHUTTLE",
+        "levels": []
+      },
+      {
+        "code": "NURSE_OTHER_APPARATUS",
+        "levels": []
+      },
+      {
+        "code": "DRAFT_FROM_STATIC_SOURCE",
+        "levels": []
+      },
+      {
+        "code": "SUPPLY_FROM_FIRE_BOAT",
+        "levels": []
+      },
+      {
+        "code": "FOAM_ADDITIVE",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_fire_invest_need",
+    "options": [
+      {
+        "code": "YES",
+        "levels": []
+      },
+      {
+        "code": "NO",
+        "levels": []
+      },
+      {
+        "code": "NOT_EVALUATED",
+        "levels": []
+      },
+      {
+        "code": "NOT_APPLICABLE",
+        "levels": []
+      },
+      {
+        "code": "NO_CAUSE_OBVIOUS",
+        "levels": []
+      },
+      {
+        "code": "OTHER",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_fire_bldg_damage",
+    "options": [
+      {
+        "code": "NO_DAMAGE",
+        "levels": []
+      },
+      {
+        "code": "MINOR_DAMAGE",
+        "levels": []
+      },
+      {
+        "code": "MODERATE_DAMAGE",
+        "levels": []
+      },
+      {
+        "code": "MAJOR_DAMAGE",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_room",
+    "options": [
+      {
+        "code": "ASSEMBLY",
+        "levels": []
+      },
+      {
+        "code": "BATHROOM",
+        "levels": []
+      },
+      {
+        "code": "BEDROOM",
+        "levels": []
+      },
+      {
+        "code": "KITCHEN",
+        "levels": []
+      },
+      {
+        "code": "LIVING_SPACE",
+        "levels": []
+      },
+      {
+        "code": "HALLWAY_FOYER",
+        "levels": []
+      },
+      {
+        "code": "GARAGE",
+        "levels": []
+      },
+      {
+        "code": "BALCONY_PORCH_DECK",
+        "levels": []
+      },
+      {
+        "code": "BASEMENT",
+        "levels": []
+      },
+      {
+        "code": "ATTIC",
+        "levels": []
+      },
+      {
+        "code": "OFFICE",
+        "levels": []
+      },
+      {
+        "code": "UTILITY_ROOM",
+        "levels": []
+      },
+      {
+        "code": "OTHER",
+        "levels": []
+      },
+      {
+        "code": "UNKNOWN",
+        "levels": []
+      }
+    ]
+  },
+  {
+    "key": "type_fire_cause_in",
+    "options": [
+      {
+        "code": "OPERATING_EQUIPMENT",
+        "levels": []
+      },
+      {
+        "code": "ELECTRICAL",
+        "levels": []
+      },
+      {
+        "code": "BATTERY_POWER_STORAGE",
+        "levels": []
+      },
+      {
+        "code": "HEAT_FROM_ANOTHER_OBJECT",
+        "levels": []
+      },
+      {
+        "code": "EXPLOSIVES_FIREWORKS",
+        "levels": []
+      },
+      {
+        "code": "SMOKING_MATERIALS_ILLICIT_DRUGS",
+        "levels": []
+      },
+      {
+        "code": "OPEN_FLAME",
+        "levels": []
+      },
+      {
+        "code": "COOKING",
+        "levels": []
+      },
+      {
+        "code": "CHEMICAL",
+        "levels": []
+      },
+      {
+        "code": "ACT_OF_NATURE",
+        "levels": []
+      },
+      {
+        "code": "INCENDIARY",
+        "levels": []
+      },
+      {
+        "code": "OTHER_HEAT_SOURCE",
+        "levels": []
+      },
+      {
+        "code": "UNABLE_TO_BE_DETERMINED",
+        "levels": []
+      }
+    ]
+  }
+]
