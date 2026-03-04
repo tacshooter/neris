@@ -1,34 +1,34 @@
 # NERIS Implementation Plan
 
 ## Overview
-A Django/Vue.js system for fire departments to collect and submit data to the National Emergency Response Information System (NERIS), utilizing MongoDB for flexible schema management. This system aims to provide a user-friendly interface for manual data entry while ensuring compatibility with the NERIS V1 Data Exchange standards.
+A Django 6 / Vue 3 / MongoDB system for fire departments to collect and submit data to the National Emergency Response Information System (NERIS). This system handles the modular, hierarchical nature of fire reporting while providing a user-friendly, non-technical interface for department personnel.
 
 ## Technical Stack
-*   **Backend:** Django (Python) with MongoDB integration (likely using `djongo` or `pymongo` directly).
-*   **Frontend:** Vue 3 (Composition API) with a dynamic form engine.
-*   **Database:** MongoDB (to handle the evolving and modular NERIS schema).
-*   **Integration:** NERIS REST API (FastAPI) for data submission and value set synchronization.
+*   **Backend:** Django 6 (Python) using `pymongo` for incident data and SQLite for auth.
+*   **Frontend:** Vue 3 (Composition API) with a JSON-driven dynamic form engine.
+*   **Database:** MongoDB 7 (Flexible schema for modular NERIS data).
+*   **Authentication:** JWT (SimpleJWT) for stateless session management.
+*   **Integration:** NERIS REST API (FastAPI).
 
-## Phase 1: Research & Schema Mapping
+## Phase 1: Research & Schema Mapping (COMPLETED)
 *   [x] Initial scan of NERIS Technical Reference.
 *   [x] Identification of Core vs. Secondary schemas.
-*   [ ] Extract field-level requirements for `core_mod_incident`.
-*   [ ] Define MongoDB document structure for standard incidents.
-*   [ ] Map NERIS `possible_if` logic to frontend form state.
+*   [x] Extract field-level requirements for `core_mod_incident`.
+*   [x] Define MongoDB document structure for standard incidents.
 
-## Phase 2: Core System Architecture
-*   **Dynamic Forms:** Build a Vue component that renders forms based on NERIS module definitions.
-*   **Validation Engine:** Implement server-side validation to match `db_required` and `neris_core` constraints.
-*   **Lookup Service:** Automated caching of NERIS "Value Sets" (enumerations) from GitHub/API to populate dropdowns.
-*   **API Client:** Integration with the `neris-api-client` for secure data transfer.
+## Phase 2: Core System Architecture (COMPLETED)
+*   [x] **Dynamic Forms:** Build a recursive Vue engine to render nested NERIS modules (Fire, Medical, etc.).
+*   [x] **Validation Engine:** Server-side recursive check for `db_required` and `neris_core` constraints.
+*   [x] **Lookup Service:** Automated synchronization of NERIS "Value Sets" (Enumerations).
+*   [x] **Authentication:** JWT-based login for department personnel (McCool, Shell, Mud).
 
-## Phase 3: Development Modules
-1.  **Authentication & Profile:** Fire department entity setup and user management.
-2.  **Incident Reporting:** Step-by-step wizard for incident data entry.
-3.  **CAD Integration (Optional):** Future expansion for dispatch data import.
-4.  **Submission Dashboard:** Track status of submitted records and compatibility badges.
+## Phase 3: Development Modules (IN PROGRESS)
+*   [x] **Seeded Demo Environment:** Fictional "Lobster Cove Fire & Rescue" station, fleet, and personnel.
+*   [x] **Incident Dashboard:** Centralized view for CAD feeds, drafts, and resource status.
+*   [ ] **CAD Integration:** One-click pre-filling of reports from dispatch data.
+*   [ ] **Submission Pipeline:** Final handshake with the NERIS FastAPI using OAuth2.
 
 ## Next Steps
-*   Deep dive into `core_mod_incident.yml` to extract a concrete example of data requirements.
-*   Propose a MongoDB schema for an incident document.
-*   Review NERIS API authentication requirements (OAuth2).
+1.  **Map CAD to Incident:** Write the mapping logic to turn raw dispatch events into pre-filled incident documents.
+2.  **API Submission:** Implement the `submit_to_neris` method in the viewset using the `neris-api-client`.
+3.  **UI Polish:** Add the "Validation Sidebar" jump-to links and field highlighting.

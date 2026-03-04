@@ -1,0 +1,50 @@
+[
+  {
+    "id": "patient_care_report",
+    "label": "Patient care report identification number. Correlates to NEMSIS eRecord.01.",
+    "group": "patient",
+    "type": "Text",
+    "required": false,
+    "core": false,
+    "possible_if": "",
+    "example": "VAE456M1-02202024",
+    "cardinality": "Single",
+    "value_set": false
+  },
+  {
+    "id": "patient_evaluation_care",
+    "label": "Status of patient care needs based on evaluation.",
+    "group": "patient",
+    "type": "Text",
+    "required": true,
+    "core": false,
+    "possible_if": "",
+    "example": "See type_medical_patient_care table",
+    "cardinality": "Single",
+    "value_set": true
+  },
+  {
+    "id": "patient_improved_status",
+    "label": "Status of the patient after FD arrival and intervention.",
+    "group": "patient",
+    "type": "Text",
+    "required": false,
+    "core": false,
+    "possible_if": "",
+    "example": "See type_medical_patient_status table",
+    "cardinality": "Single",
+    "value_set": true
+  },
+  {
+    "id": "medical_disposition",
+    "label": "Transport outcome of the incident.",
+    "group": "patient",
+    "type": "Text",
+    "required": false,
+    "core": false,
+    "possible_if": "",
+    "example": "See type_medical_transport table",
+    "cardinality": "Single",
+    "value_set": true
+  }
+]
