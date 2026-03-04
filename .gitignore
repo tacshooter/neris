@@ -1,0 +1,19 @@
+# Ignore everything in the workspace
+/*
+
+# But don't ignore the neris project folder
+!/neris/
+
+# Don't ignore this file
+!.gitignore
+
+# Standard python/environment junk within neris
+neris/venv/
+neris/__pycache__/
+neris/*.pyc
+neris/db.sqlite3
+neris/node_modules/
+neris/dist/
+.DS_Store
+.env
+p.env
